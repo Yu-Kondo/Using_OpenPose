@@ -31,7 +31,7 @@ bin\OpenPoseDemo.exe --video examples\media\**video_name**.mp4 --write_video .av
 bin\OpenPoseDemo.exe
 
 ## その他コマンド
-a) 解析画質調整：GPUではスペックの問題で解析する際の画質を下げなくてはならないことがある※作成者のPCにおける最高画質（496x320）を設定。※16の倍数で画質は設定可能。
+a) 解析画質調整：GPUではスペックの問題で解析する際の画質を下げなくてはならないことがある※作成者のPCにおける最高画質（496x320）を設定。※16の倍数で画質は設定可能。※デフォルト：656x368
 
 --net_resolution “496x320”
 
